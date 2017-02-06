@@ -18,7 +18,7 @@
       <nav>
         <ul>
           <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="about.html">About</a></li> -->
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -27,20 +27,30 @@
     <div id="wrapper">
       <section>
         <ul id="gallery">
-          <li>
+          <li height="400px" align="center">
             <a href="https://local-concert-radio.herokuapp.com/" target="_blank">
-              <img src="img/LCR.png" alt="" style="height: 150px; width: 100%;">
-              <p>Local Concert Radio</p>
-            <a>
+              <img src="img/LCR.png" alt="" style="height: 70%; width: 100%; border-radius: 10px;">
+              <h1 class="project_title">Local Concert Radio</h1>
+            </a>
+                Listen to music from bands playing live this weekend.<br><br>
+                Uses Bandsintown API to find all bands playing in the user’s inputted location and date range.<br><br>
+
+                Uses Spotify API to add tracks from each band into a playlist<br><br>
+
+                Technologies:  Flask server side framework, Postgres, jQuery, Ajax, Bootstrap<br><br>
           </li>
-          <li>
+          <li height="400px" align="center" style="margin-bottom: 200px;">
             <a href="https://additives-project.herokuapp.com/" target="_blank">
-              <img src="img/AdditivesImg.png" alt="" style="height: 150px; width: 100%;">
-              <p>Food Additives</p>
-            <a>
+              <img src="img/AdditivesImg.png" alt="" style="height: 70%; width: 100%; border-radius: 10px;">
+              <h1 class="project_title">Food Additives</h1>
+            </a>
+            Find what additives are in your food.<br><br>
+            Enter a food, or name brand and select from a list of products. Expand a product to view all FDA approved additives found in that product.<br><br>
+            Technologies: Flask server side framework, Postgres, jQuery, Ajax, Bootstrap<br><br>
           </li>
         </ul>
       </section>
     </div>
+    <footer style="margin-bottom: 45px;"><hr style="margin-bottom: 55px;"> <a href="https://github.com/gkmarsella" target="_blank"><img src="img/githubicon.png"></a></footer>
   </body>
 </html>

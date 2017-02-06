@@ -133,10 +133,10 @@ PAGE PORTFOLIO
 
 #gallery li {
 	float: left;
-	width: 45%;
 	margin: 2.5%;
 	background-color: #f5f5f5;
-	color: #bdc3c7;
+	color: black;
+	border-radius: 10px;
 
 }
 
@@ -222,4 +222,12 @@ color: #32673f
 body {
 	background-color: #fff;
 	color: #999;
+}
+
+/****************************************************
+Editiing for my portfolio
+****************************************************/
+
+.project_title {
+	color: green;
 }
